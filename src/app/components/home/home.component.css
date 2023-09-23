@@ -1,0 +1,7 @@
+.home-container {
+  justify-content: space-around;
+  background-color: #272343;
+  margin-top: 48px;
+  height: 100vh;
+  width: 100vw;
+}

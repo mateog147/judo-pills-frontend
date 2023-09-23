@@ -1,0 +1,44 @@
+.header-judo-pills {
+  width: 100vw;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4px;
+  left: 0;
+  top: 0;
+  position: fixed;
+  border-bottom: 3px solid #BAE8E8;
+}
+
+.header-judopills-title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 200px;
+}
+
+.header-judopills-title .logo-text {
+  width: 100px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff7f7;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.header-judopills-title .logotipo-judopills {
+  height: 48px;
+}
+
+.nav-anchors {
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-anchors a {
+  margin-right: 8px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #272343;
+}
