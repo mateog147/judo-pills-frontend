@@ -1,7 +1,6 @@
 <section class="container home-container">
-  <figure>
-    <img src="../../../assets/icons/judo_pills_logo_white.jpg" alt="" />
-  </figure>
-
+  <div class="cards-container">
+    <app-card *ngFor="let pills of [1,2,3,4,5,6,7,8,9]"></app-card>
+  </div>
   <button (click)="start()" class="main-btn">Comenzar</button>
 </section>

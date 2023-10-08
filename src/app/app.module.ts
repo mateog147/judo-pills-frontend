@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './components/header/header.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { HeaderComponent } from './components/header/header.component';
     HomeComponent,
     NotfoundComponent,
     HeaderComponent,
+    CardComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
